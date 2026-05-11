@@ -1,10 +1,12 @@
 # MPLAB X
-dist/
-build/
-nbproject/private/
-nbproject/Makefile-*.mk
-nbproject/Package-*.bash
-nbproject/Makefile-impl.mk
+**/dist/
+**/build/
+**/nbproject/private/
+**/nbproject/Makefile-*.mk
+**/Makefile
+**/nbproject/Makefile-genesis.properties
+**/nbproject/Package-*.bash
+**/nbproject/Makefile-impl.mk
 
 # Generated files
 *.o
@@ -14,6 +16,11 @@ nbproject/Makefile-impl.mk
 *.map
 *.lst
 *.cod
+*.generated_files/
+**/generated/
+
+# MCC autosave
+**/mcc-manifest-autosave.yml
 
 # Debug/programming outputs
 *.mdb
@@ -21,6 +28,6 @@ nbproject/Makefile-impl.mk
 *.p2
 
 # OS/editor files
-.DS_Store
+*/.DS_Store
 Thumbs.db
-.vscode/
+*/.vscode/
