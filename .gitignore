@@ -1,0 +1,26 @@
+# MPLAB X
+dist/
+build/
+nbproject/private/
+nbproject/Makefile-*.mk
+nbproject/Package-*.bash
+nbproject/Makefile-impl.mk
+
+# Generated files
+*.o
+*.d
+*.elf
+*.hex
+*.map
+*.lst
+*.cod
+
+# Debug/programming outputs
+*.mdb
+*.p1
+*.p2
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
